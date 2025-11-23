@@ -57,5 +57,22 @@ Metrics:
 
 
 ### Visual evaluation
-- ** Residual Histogram:**
-  Shows the distribution of model errors. The residuals are centered around zero and form a roughly normal distribution, indicating that the model’s errors are random and not biased.
+* Residual Histogram:
+  ![Residual Histogram](https://github.com/echlps/Linear-Regression-E-commerce/blob/main/Reg/images/imagesresiduals.png?raw=true)
+  * Shows the distribution of model errors. The residuals are centered around zero and form a roughly normal distribution, indicating that the model’s errors are random and not biased.
+* Q-Q Plot:             
+  ![Q-Q Plot](https://github.com/echlps/Linear-Regression-E-commerce/blob/main/Reg/images/Q-Q_Plot.png?raw=true)   
+  * Compares the residual distribution to a perfect normal distribution. Points follow the line closely, confirming that the residuals are approximately normal.
+ * Predictions vs Actual values plot:
+  ![Predicted Vs Actuial](https://github.com/echlps/Linear-Regression-E-commerce/blob/main/Reg/images/PredictedVsActualPlot.png?raw=true)
+    * Plots predicted values against true values. Points fall close to the diagonal line, showing that the model makes accurate predictions with no strong patterns in the errors.
+
+### Conclusions and insights 
+* Membership Length has the strongest impact on spending
+* App usage correlates positively with revenue
+* Website usage has little predictive value
+* The model performs strongly and generalizes well
+
+Focus on improving the mobile app experience.
+Invest in customer retention strategies (longer membership = more revenue).
+Website improvements have low expected financial return.
